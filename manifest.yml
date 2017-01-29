@@ -1,12 +1,10 @@
 applications:
-- name: WatsonChatSample
-  host: watsonchatsample
+- name: watsonchat2811
+  host: watsonchat2811
   domain: mybluemix.net
-  command: npm app.js
+  command: npm start
   path: .
   memory: 512M
   instances: 1
   services:
   - Conversation-sy
-  env:
-    NPM_CONFIG_PRODUCTION: false
