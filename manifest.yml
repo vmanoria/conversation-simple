@@ -1,15 +1,11 @@
 ---
-declared-services:
-  my-conversation-service:
-    label: conversation
-    plan: free
 applications:
-- name: ChatDemoSample
+- name: WatsonChatSample
   command: npm start
   path: .
   memory: 512M
   instances: 1
   services:
-  - my-conversation-service
+  - Conversation-sy
   env:
     NPM_CONFIG_PRODUCTION: false
