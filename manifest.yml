@@ -4,10 +4,10 @@ declared-services:
     label: conversation
     plan: free
 applications:
-- name: conversation-simple
+- name: ChatDemoSample
   command: npm start
   path: .
-  memory: 256M
+  memory: 512M
   instances: 1
   services:
   - my-conversation-service
