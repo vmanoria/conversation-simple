@@ -1,7 +1,8 @@
----
 applications:
 - name: WatsonChatSample
-  command: npm start
+  host: watsonchatsample
+  domain: mybluemix.net
+  command: npm app.js
   path: .
   memory: 512M
   instances: 1
